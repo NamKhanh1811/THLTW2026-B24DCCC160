@@ -42,6 +42,13 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+	{
+		path: '/products',
+		name: 'Products',
+		icon: 'ShoppingOutlined',
+		component: './products',
+	},
+	
 
 	// DANH MUC HE THONG
 	// {
