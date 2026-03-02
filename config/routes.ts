@@ -48,6 +48,14 @@
 		icon: 'ShoppingOutlined',
 		component: './products',
 	},
+	{
+        path:'/dashboard',
+        component:'@/pages/dashboard'
+    },
+	{
+		path:'/orders',
+		component:'@/pages/orders'
+	},
 	
 
 	// DANH MUC HE THONG
