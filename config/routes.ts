@@ -49,12 +49,19 @@
 		component: './products',
 	},
 	{
-        path:'/dashboard',
-        component:'@/pages/dashboard'
-    },
-	{
 		path:'/orders',
+		name: 'Orders',
 		component:'@/pages/orders'
+	},
+	{
+		path: '/TH01-game',
+		name: 'Game đoán số',
+		component: './TH01-game',
+	},
+	{
+		path: '/TH01-quanlyhoctap',
+		name: 'Quản lý học tập',
+		component: './TH01-quanlyhoctap',
 	},
 	
 
