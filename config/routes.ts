@@ -63,6 +63,37 @@
 		name: 'Quản lý học tập',
 		component: './TH01-quanlyhoctap',
 	},
+	{
+		path: '/TH02-oantuti',
+		name: 'Oẳn Tù Tì ',
+		component: './TH02-oantuti',
+	},
+	{
+		path: '/TH02-nganhangcauhoi',
+		name: 'Ngân hàng câu hỏi',
+		routes: [
+			{
+			path: '/TH02-nganhangcauhoi/khoikienthuc',
+			name: 'Khối kiến thức',
+			component: './TH02-nganhangcauhoi/khoikienthuc',
+			},
+			{
+			path: '/TH02-nganhangcauhoi/monhoc',
+			name: 'Môn học',
+			component: './TH02-nganhangcauhoi/monhoc',
+			},
+			{
+			path: '/TH02-nganhangcauhoi/cauhoi',
+			name: 'Câu hỏi',
+			component: './TH02-nganhangcauhoi/cauhoi',
+			},
+			{
+			path: '/TH02-nganhangcauhoi/dethi',
+			name: 'Đề thi',
+			component: './TH02-nganhangcauhoi/dethi',
+			},
+		],
+	},
 	
 
 	// DANH MUC HE THONG
