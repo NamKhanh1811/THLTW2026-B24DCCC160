@@ -94,6 +94,37 @@
 			},
 		],
 	},
+	{
+		path: '/TH03-datlich',
+		name: 'Đặt lịch dịch vụ',
+		routes: [
+			{
+			path: '/TH03-datlich/nhanvien',
+			name: 'Nhân viên',
+			component: './TH03-datlich/nhanvien',
+			},
+			{
+			path: '/TH03-datlich/dichvu',
+			name: 'Dịch vụ',
+			component: './TH03-datlich/dichvu',
+			},
+			{
+			path: '/TH03-datlich/lichhen',
+			name: 'Lịch hẹn',
+			component: './TH03-datlich/lichhen',
+			},
+			{
+			path: '/TH03-datlich/thongke',
+			name: 'Thống kê',
+			component: './TH03-datlich/thongke',
+			},
+			{
+			path: '/TH03-datlich/danhgia',
+			name: 'Đánh giá',
+			component: './TH03-datlich/danhgia',
+			}
+		],
+	},
 	
 
 	// DANH MUC HE THONG
