@@ -1,4 +1,6 @@
-﻿export default [
+﻿import path from "path";
+
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -125,7 +127,37 @@
 			}
 		],
 	},
-	
+	{
+		path: '/TH04-vanbang',
+		name: 'Quản lý văn bằng',
+		routes: [
+			{
+				path: '/TH04-vanbang/tracuu',
+				name: 'Tra cứu',
+				component: './TH04-vanbang/TraCuu',
+			},
+			{
+				path: '/TH04-vanbang/vanbang',
+				name: 'Văn bằng',
+				component: './TH04-vanbang/VanBang',
+			},
+			{
+				path: '/TH04-vanbang/quyetdinh',
+				name: 'Quyết định',
+				component: './TH04-vanbang/QuyetDinh',
+			},
+			{
+				path: '/TH04-vanbang/sovanbang',
+				name: 'Sổ văn bằng',
+				component: './TH04-vanbang/SoVanBang',
+			},
+			{
+				path: '/TH04-vanbang/cauhinhtruong',
+				name: 'Cấu hình trường',
+				component: './TH04-vanbang/CauHinhTruong',
+			}
+		],
+	},
 
 	// DANH MUC HE THONG
 	// {
