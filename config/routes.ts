@@ -1,4 +1,5 @@
-﻿import path from "path";
+﻿import route from "mock/route";
+import path from "path";
 
 export default [
 	{
@@ -155,6 +156,32 @@ export default [
 				path: '/TH04-vanbang/cauhinhtruong',
 				name: 'Cấu hình trường',
 				component: './TH04-vanbang/CauHinhTruong',
+			}
+		],
+	},
+	{
+		path: '/TH05-caulacbo',
+		name: 'Quản lý câu lạc bộ',
+		routes: [
+			{
+				path: '/TH05-caulacbo/CauLacBo',
+				name: 'Câu lạc bộ',
+				component: './TH05-caulacbo/CauLacBo',
+			},
+			{
+				path: '/TH05-caulacbo/ThanhVien',
+				name: 'Thành viên',
+				component: './TH05-caulacbo/ThanhVien',
+			},
+			{
+				path: '/TH05-caulacbo/DonDangKy',
+				name: 'Đơn đăng ký',
+				component: './TH05-caulacbo/DonDangKy',
+			},
+			{
+				path: '/TH05-caulacbo/BaoCao',
+				name: 'Báo cáo',
+				component: './TH05-caulacbo/BaoCao',
 			}
 		],
 	},
