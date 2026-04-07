@@ -185,6 +185,32 @@ export default [
 			}
 		],
 	},
+	{
+		path: '/TH06-dulich',
+		name: 'Du lịch',
+		routes: [
+			{
+			path: '/TH06-dulich/trangchu',
+			name: 'Trang chủ',
+			component: './TH06-dulich/TrangChu',
+			},
+			{
+			path: '/TH06-dulich/lichtrinh',
+			name: 'Lịch trình',
+			component: './TH06-dulich/LichTrinh',
+			},
+			{
+			path: '/TH06-dulich/ngansach',
+			name: 'Ngân sách',
+			component: './TH06-dulich/NganSach',
+			},
+			{
+			path: '/TH06-dulich/admin',
+			name: 'Quản trị',
+			component: './TH06-dulich/Admin',
+			},
+		],
+	},
 
 	// DANH MUC HE THONG
 	// {
