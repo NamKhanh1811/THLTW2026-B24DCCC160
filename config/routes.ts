@@ -211,6 +211,17 @@ export default [
 			},
 		],
 	},
+	{
+		path: '/KTGK-quanlykhoahoc',
+		name: 'Quản lý khóa học',
+		routes: [
+			{
+			path: '/KTGK-quanlykhoahoc/quanly',
+			name: 'Trang chủ',
+			component: './KTGK-quanlykhoahoc/quanLy',
+			},
+		],
+	},
 
 	// DANH MUC HE THONG
 	// {
