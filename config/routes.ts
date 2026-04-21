@@ -222,6 +222,32 @@ export default [
 			},
 		],
 	},
+	{
+		path: '/TH07-blog',
+		name: 'Blog cá nhân',
+		routes: [
+			{
+				path: '/TH07-blog/trang-chu',
+				name: 'Trang chủ',
+				component: './TH07-blog/trangChu',
+			},
+			{
+				path: '/TH07-blog/trang-chi-tiet/:id',
+				name: 'Trang chi tiết',
+				component: './TH07-blog/trangChiTiet',
+			},
+			{
+				path: '/TH07-blog/trang-gioi-thieu',
+				name: 'Trang giới thiệu',
+				component: './TH07-blog/trangGioiThieu',
+			},
+			{
+				path: '/TH07-blog/admin',
+				name: 'Admin',
+				component: './TH07-blog/admin',
+			}
+		],
+	},
 
 	// DANH MUC HE THONG
 	// {
