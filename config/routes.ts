@@ -248,6 +248,27 @@ export default [
 			}
 		],
 	},
+	{
+		path: '/TH09-tdcv',
+		name: 'Theo dõi công việc cá nhân',
+		routes: [
+			{
+				path: '/TH09-tdcv/dashboard',
+				name: 'dashboard',
+				component: './TH09-tdcv/dashboard',
+			},
+			{
+				path: '/TH09-tdcv/kanban',
+				name: 'kanban',
+				component: './TH09-tdcv/kanban',
+			},
+			{
+				path: '/TH09-tdcv/task',
+				name: 'task',
+				component: './TH09-tdcv/task',
+			}
+		]
+	},
 
 	// DANH MUC HE THONG
 	// {
